@@ -3,7 +3,7 @@ import React from 'react';
 function Cards({ item }) {
   return (
     <>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-1 gap-4 p-3 m-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-1 gap-4 p-3 m-10 hover:scale-105 duration-200">
         <div className="card bg-base-100 w-full shadow-xl m-2">
           <figure>
             <img src={item.image} alt={item.name} className="w-full h-48 object-cover" />
