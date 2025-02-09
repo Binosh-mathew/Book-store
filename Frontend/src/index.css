@@ -30,6 +30,11 @@ html.dark .footer {
     color: #ffffff !important; /* Ensures text is white */
     border-color: #0f172a !important; /* Equivalent to dark:border-gray-600 */
   }
+  .dark .modal-box {
+    background-color: #1e293b !important; /* Dark slate color */
+    color: white !important;
+  }
+  
   
 
    
