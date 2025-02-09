@@ -7,3 +7,29 @@
 body{
     font-family: 'Poppins',sans-serif;
 }
+html.dark {
+    background-color: #0f172a; /* Same as slate-900 */
+    color: white;
+}
+.footer {
+    color: black; /* gray-800 for light mode */
+}
+
+html.dark .footer {
+    color: #e5e7eb; /* gray-200 for dark mode */
+}
+.sticky-navbar {
+    background-color: #f3f4f6; /* Light mode (gray-200) */
+  }
+  
+  html.dark .sticky-navbar {
+    background-color: #0f172a !important; /* Dark mode (slate-900) */
+  }
+  .dark input {
+    background-color:#0f172a !important; /* Equivalent to bg-slate-800 */
+    color: #ffffff !important; /* Ensures text is white */
+    border-color: #0f172a !important; /* Equivalent to dark:border-gray-600 */
+  }
+  
+
+   
